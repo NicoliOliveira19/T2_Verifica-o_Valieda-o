@@ -17,6 +17,10 @@
     "resolveJsonModule": true,
     "useDefineForClassFields": false,
     "preserveWatchOutput": true,
-    "allowJs": true
+    "allowJs": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
   }
 }

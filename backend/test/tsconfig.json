@@ -1,6 +1,11 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
+    "types": ["jest"],
+    "moduleResolution": "Node16", // ← importante!
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
     "strict": false
   }
 }
